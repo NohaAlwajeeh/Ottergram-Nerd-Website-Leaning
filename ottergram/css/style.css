@@ -1,0 +1,58 @@
+
+nav ul li
+{
+    display: inline; 
+
+
+}
+nav ul li .login
+{
+     
+    display: inline; 
+}
+nav ul li .login:hover .logindrop{
+    display: block;
+}
+nav ul li  .logindrop
+{
+    display: none;
+
+
+    position: absolute;
+    
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+nav ul li .logindrop a
+{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+nav ul li .dropbtn
+{
+    display: inline; 
+}
+nav ul li .dropbtn:hover .drowpdwon{
+    display: block;
+}
+nav ul li  .drowpdwon
+{
+    display: none;
+
+
+    position: absolute;
+  
+    min-width: 100%;
+   
+}
+nav ul li .drowpdwon a
+{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
